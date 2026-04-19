@@ -1,0 +1,7 @@
+Whisky is a macOS app that lets you run Windows programs without installing Windows.
+It works by using Wine, which translates Windows system calls into macOS ones.
+Whisky provides a graphical interface to manage “bottles,” which are separate environments for different apps.
+It also downloads and manages specific Wine versions to ensure better stability and compatibility.
+Overall, Whisky acts as an easy-to-use frontend while Wine does the actual work of running Windows software.
+The original Whisky was discontinued when its developer stopped active maintenance, mainly because keeping up with constant macOS changes and evolving Wine releases became too time-intensive. After that, I picked up the project and began modifying it to work again with current Wine builds on macOS. 
+This package enables the execution of applications that depend on older or previously unsupported environments by updating the underlying runtime components used by Whisky. By replacing the default Wine binaries and refreshing DXVK libraries, the system is able to handle software that may not function correctly under the original configuration. As a result, applications that were previously outdated, incompatible, or unstable can now run within a more flexible and updated compatibility layer.
